@@ -1,0 +1,45 @@
+/*background-image*/
+
+   body {
+       background-image: url("../images/leo.jpg");
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       font-family: 'Dancing Script', cursive;
+   }
+
+/*words-at-the-top*/
+
+   p {
+       display: inline-block;
+       font-size: 7vw;
+       color: white;
+       margin-top: 4px;
+   }
+
+   p:nth-child(1) {
+       position: absolute;
+       left: 10vw;
+   }
+
+   p:nth-child(2) {
+       position: absolute;
+       right: 10vw;
+   }
+
+/* link at the bottom*/
+
+   div {
+       position: absolute;
+       bottom: 10px;
+       color: white;
+       width: 100%;
+       text-align: center;
+   }
+
+   div a {
+       color: white;
+       text-decoration: none;
+       font-size: 7vw;
+   }
